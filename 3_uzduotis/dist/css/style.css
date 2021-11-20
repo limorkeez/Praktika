@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.txtCol2{
+    color: rgb(85, 140, 156);
+}
+
+.txtCol1{
+    background-color: red;
+    color: white;
+}
+
+.dark{
+    background-color: rgb(247, 247, 247);
+}
+
+.mainDiv{
+    max-width: 1000px;
+}
+
+.headerDiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 10px;
+}
+
+.headerName{
+    display: flex;
+    align-items: baseline;
+}
+
+.headerName h1{
+    color: red;
+    font-weight: 500;
+}
+
+.headerName a{
+    text-decoration: none;
+    color: rgb(85, 140, 156);
+}
+
+.headerName>*{
+    margin-left: 10px;
+}
+
+.menu ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.menu ul li{
+padding: 5px 20px;
+margin-right: 20px;
+border-radius: 5px;
+font-weight: 600;
+}
+
+.postWrapper{
+    /* height: 700px; */
+    display: flex;
+    flex-direction: column;
+}
+
+.postDiv{
+    /* background-color: wheat; */
+    height: 25%;
+    display: flex;
+    padding: 10px 0px;
+}
+
+.left{
+    min-width: 150px;
+    border-right: 1px solid gray;
+}
+
+.right{
+    width: 85%;
+    border-left: 1px solid gray;
+}
+
+.dateLabel{
+    width: 50%;
+    /* height: 80%; */
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.innerLabel{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.top{
+    background-color: red;
+    text-align: center;
+    font-weight: 400;
+    font-size: 12px;
+    color: white;
+}
+
+.number{
+    color: red;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    padding: 10px 0px;
+}
+
+.drop{
+    background-color: gray;
+    text-align: center;
+    font-weight: 400;
+    font-size: 12px;
+    color: white;
+}
