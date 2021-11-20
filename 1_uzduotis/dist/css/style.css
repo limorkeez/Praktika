@@ -1,0 +1,72 @@
+/* body fono spalva:
+    background-color: #1A1A2E;
+    vidinio div fono spalva:
+    background-color: #25304D;
+    card fono spalva:
+    background-color: #3C4763; 
+    
+    font-family: 'Open Sans', sans-serif;
+    */
+
+    *{
+        box-sizing: border-box;
+    }
+
+    body{
+        margin: 0;
+        padding: 0;
+        background-color: #1A1A2E;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .mainDiv{
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    .headerBlock h2{
+        color: rgb(255, 252, 208);
+        text-align: center;
+        margin: 50px 0px;
+    }
+
+    .contentBlock{
+        width: 100%;
+        background-color: #25304D;
+        color: white;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: stretch;
+        flex-flow: row wrap;
+    }
+
+    .box{
+        width: 200px;
+        margin: 30px 0px;
+        background-color: #3C4763; 
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .photoBox img{
+        width: 100%;
+    }
+
+    .contBox{
+        padding: 0px 15px;
+    }
+
+    .buttonBlock{
+        width: 80%;
+        padding: 10px;
+        margin: 10px auto;
+        border: 1px solid #7082b1;
+        border-radius: 50px;
+        text-align: center;
+    }
+
+    .buttonBlock a{
+        text-decoration: none;
+        color: white;
+    }
